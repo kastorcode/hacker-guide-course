@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1615062651 source:/opt/lampp/htdocs/guia-hacker/Criptografia/main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1614526619 source:/opt/lampp/htdocs/guia-hacker/JogoDaVelha/main.c
+	<stdio.h>
+	<stdlib.h>
+

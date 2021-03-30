@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1616274957 source:/opt/lampp/htdocs/guia-hacker/Ransomware/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<dirent.h>
+

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>
+		Aula 03 - Inside Browser Análise de Componente Web - Matheus Ramalho de Oliveira
+	</title>
+</head>
+
+<body>
+	<br />
+	<label>Login: </label>
+	<input id="entrada" class="login" type="text" />
+	<br /><br />
+	<label>Senha: </label>
+	<input id="senha" class="login" type="password" />
+
+	<script>
+		(function() {
+
+			var inputs = document.getElementsByTagName('input');
+
+			for (var i = 0; i < inputs.length; i++) {
+		    inputs[i].oninput = event => {
+					console.log(event.target.value);
+				};
+		  }
+
+		})();
+	</script>
+</body>
+
+</html>
