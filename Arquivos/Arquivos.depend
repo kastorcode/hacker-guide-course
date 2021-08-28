@@ -1,6 +1,0 @@
-# depslib dependency file v1.0
-1614449801 source:/opt/lampp/htdocs/guia-hacker/Arquivos/main.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-
